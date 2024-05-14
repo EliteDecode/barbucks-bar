@@ -1,0 +1,49 @@
+.main {
+  overflow: hidden;
+  height: 100vh;
+}
+
+.background-imageify {
+  background: url("../../assets/images/bg1.jpg");
+  background-position: -300px 0px;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: overlay;
+}
+
+.background-barrol {
+  background: url("../../assets/images/bg2.jpg");
+  background-position: -300px 0px;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: overlay;
+  background-size: cover;
+}
+
+.logo img {
+  width: 30%;
+}
+
+@media (min-width: 0px) and (max-width: 575px) {
+  .apps-footer img {
+    width: 25%;
+  }
+  .main {
+    overflow: scroll;
+    height: min-content;
+  }
+}
+
+.dataTables_wrapper .dataTables_filter {
+  margin-bottom: 3%;
+}
+
+/* #postTable {
+  border: 1px solid #000;
+}
+
+.dataTables_scrollHead {
+  border: 1px solid #000;
+} */
+
+.logo {
+  width: 45%;
+}
